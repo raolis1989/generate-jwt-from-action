@@ -22,7 +22,7 @@ try {
 	}, secret);
 
 	console.log("-- Generated JWT --");
-	console.log(valoresperado + 'sdsdsdsd');
+	console.log(+ '  sdsdsdsd' + valoresperado + '  sdsdsdsd');
 } catch (errorOnPayload) {
 	console.log("\nFailed to generate payload! An error happened :", errorOnPayload);
 }
