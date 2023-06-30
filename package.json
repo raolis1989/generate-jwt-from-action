@@ -1,18 +1,4 @@
 {
-    "name": "js",
-    "version": "1.0.0",
-    "main": "app.js",
-    "scripts": {
-      "generate": "node app.js",
-      "dev": "nodemon app.js"
-    },
-    "license": "MIT",
-    "dependencies": {
-      "dotenv": "^10.0.0",
-      "figlet": "^1.5.2",
-      "jsonwebtoken": "^8.5.1"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.15"
-    }
-  }
+    "name": "simple",
+    "main": "app.js"
+}
