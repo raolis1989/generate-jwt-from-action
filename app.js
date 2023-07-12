@@ -17,8 +17,8 @@ try {
 	valoresperado = jwt.sign({ 
 		iss: 'jwt-tutorial', // Issuer (who created and signed this token)
 		sub: 'USER_ID', // Subject (whom the token refers to)
-		scope:'[principal-products:read, principal-portafolios:read]',
-		exp: duration, // Token expiry date
+		scope:'[principal-product:read, principal-portafolios:read]',
+		exp: Math.floor(Date.now() / 1000) + duration, // Token expiry date
 		roles: ['student']
 	}, secret);
 
